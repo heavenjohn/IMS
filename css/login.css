@@ -1,0 +1,78 @@
+body {
+  background: url("../image/loginBG.jpeg") no-repeat center center fixed;
+  background-size: cover;
+  font-family: arial;
+}
+.loginHeader {
+  margin-bottom: 30px;
+  text-align: center;
+}
+.loginHeader {
+  margin-bottom: 60px;
+}
+.loginHeader h1 {
+  font-size: 60px;
+  font-weight: bold;
+  color: #d62966;
+  padding: 0px;
+  margin: 0px;
+}
+
+.loginHeader p {
+  font-size: 60px;
+  color: #d62966;
+  padding: 0px;
+  margin: 0px;
+  text-transform: uppercase;
+}
+
+.loginHeader p:after {
+  content: "";
+  display: block;
+  height: 5px;
+  background: #6600c2;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.loginBody form {
+  margin: 0 auto;
+  width: 450px;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 30px;
+  border: 3px solid #fff;
+  border-radius: 8px;
+}
+.loginInputContainer {
+  margin: 5px;
+}
+
+.loginInputContainer label {
+  display: block;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.loginInputContainer input {
+  height: 30px;
+  width: 100%;
+  border: 2px solid #d62966;
+  font-size: 20px;
+  padding: 5px;
+  text-align: center;
+}
+
+.loginBtnContainer {
+  margin: 40px;
+  text-align: center;
+}
+
+.loginBtnContainer button {
+  font-size: 30px;
+  padding: 10px 40px;
+  background: #d62966;
+  border: none;
+  color: #fff;
+}
